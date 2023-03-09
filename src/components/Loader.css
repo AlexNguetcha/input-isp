@@ -1,4 +1,4 @@
-.Loader {
+.InputIsp__Loader {
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -8,10 +8,10 @@
          radial-gradient(farthest-side,#0000 calc(100% - 5px),#000 calc(100% - 5px));
     -webkit-mask-composite: destination-in;
     mask-composite: intersect;
-    animation: Loader-d55elj 1s infinite steps(10);
+    animation: InputIsp__Loader-d55elj 1s infinite steps(10);
  }
  
- @keyframes Loader-d55elj {
+ @keyframes InputIsp__Loader-d55elj {
     to {
        transform: rotate(1turn);
     }

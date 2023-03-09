@@ -2,7 +2,6 @@ import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import typescript from '@rollup/plugin-typescript';
 import postcss from "rollup-plugin-postcss";
-import copy from 'rollup-plugin-copy'
 
 
 export default {
@@ -25,9 +24,6 @@ export default {
             declarationDir: 'dist',
         }),
         postcss(),
-        copy({
-            targets: [{ src: 'src/assets/*', dest: 'dist/assets' }]
-        })
     ],
     external: ['react', 'react-dom'],
 };
