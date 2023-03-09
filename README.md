@@ -10,7 +10,7 @@ You can install the package using `npm` or `yarn`:
 npm i input-isp
 ````
 ```
-yarn i input-isp
+yarn add input-isp
 ````
 
 ## Usage

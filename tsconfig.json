@@ -36,7 +36,6 @@
   },
   "include": [
     "src/index.ts",
-    "src/assets/*"
   ],
   "exclude": [
     "node_modules",
