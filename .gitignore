@@ -12,6 +12,11 @@
 /build
 /dist
 
+#token
+
+.token
+build-storybook.log
+
 # misc
 .DS_Store
 .env.local
