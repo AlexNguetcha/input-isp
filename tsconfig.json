@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es5",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "sourceMap": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "esModuleInterop": true,
+    "baseUrl": "src/",
+    "paths": {
+      "assets": [
+        "src/assets/*"
+      ],
+      "common": [
+        "src/common/*"
+      ],
+      "components": [
+        "src/components/*"
+      ],
+      "hooks": [
+        "src/hooks/*"
+      ],
+      "utils": [
+        "src/utils/*"
+      ]
+    }
+  },
+  "include": [
+    "src/index.ts",
+    "src/assets/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest"
+  ],
+  "types": [
+    "typePatches"
+  ]
+}

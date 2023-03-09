@@ -1,0 +1,40 @@
+
+.InputIsp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #333333;
+    width: max-content;
+    padding: 0 8px;
+    background-color: white;
+}
+
+.InputIsp input[type='tel']{
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.InputIsp .InputIsp_detected{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border: none;
+    width: 20px;
+}
+
+.InputIsp_detected img{
+    width: 28px;
+    border-radius: 4px;
+    user-select: none;
+    pointer-events: none;
+    animation: scaleUp .2s ease-in-out 150ms 2;
+}
+
+@keyframes scaleUp {
+    100%{
+        scale: .8;
+    }
+}

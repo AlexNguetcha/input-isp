@@ -1,0 +1,14 @@
+{
+  "input": "./src/index.ts",
+  "extends": "./tsconfig.json",
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest",
+    "src/stories/**"
+  ],
+}
