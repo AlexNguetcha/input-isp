@@ -74,7 +74,6 @@ InputIsp.propTypes = {
     onChange: PropTypes.func,
     inputClassName: PropTypes.string,
     containerClassName: PropTypes.string,
-    props: PropTypes.shape
 };
 
 // Set default props for the InputIsp component

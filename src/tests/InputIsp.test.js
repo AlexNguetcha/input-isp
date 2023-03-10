@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react';
-import InputIsp from '../src/components/InputIsp';
+import InputIsp from '../components/InputIsp';
 
 
 describe('InputIsp', () => {
