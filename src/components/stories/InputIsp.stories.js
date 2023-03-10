@@ -12,7 +12,8 @@ const Template = args => <InputIsp {...args} />;
 
 export const Orange_CM = Template.bind({});
 Orange_CM.args = {
-  initialPhoneNumber: '+237695904403'
+  initialPhoneNumber: '+237695904403',
+  placeholder: 'phone number'
 };
 
 export const Mtn_CM = Template.bind({});

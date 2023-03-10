@@ -16,6 +16,10 @@
 
 .token
 build-storybook.log
+index.js
+App.css
+index.css
+
 
 # misc
 .DS_Store
