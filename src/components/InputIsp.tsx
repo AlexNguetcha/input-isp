@@ -4,7 +4,7 @@ import Loader from './Loader';
 import './InputIsp.css';
 import PHONE_NUMBER_ISP_REGEX from './PhoneNumberRegex';
 
-export default function InputIsp({ initialPhoneNumber, onChange, inputClassName, containerClassName, ...props }) {
+export default function InputIsp({ initialPhoneNumber, placeholder, onChange, inputClassName, containerClassName, ...props }) {
 
     const REMOTE_IMAGE_BASE_URL = 'https://raw.githubusercontent.com/AlexNguetcha/input-isp/dev/src/assets/logo/'
 
@@ -45,6 +45,7 @@ export default function InputIsp({ initialPhoneNumber, onChange, inputClassName,
                 {...(inputClassName ? { className: inputClassName } : {})}
                 type="tel" value={phoneNumber}
                 onChange={handlePhoneNumberChange}
+                placeholder={placeholder}
                 {...props}
             />
 
@@ -69,6 +70,7 @@ export default function InputIsp({ initialPhoneNumber, onChange, inputClassName,
 // Declare the prop types for the InputIsp component
 InputIsp.propTypes = {
     initialPhoneNumber: PropTypes.string,
+    placeholder: PropTypes.string,
     onChange: PropTypes.func,
     inputClassName: PropTypes.string,
     containerClassName: PropTypes.string,
@@ -78,6 +80,7 @@ InputIsp.propTypes = {
 // Set default props for the InputIsp component
 InputIsp.defaultProps = {
     initialPhoneNumber: '',
+    placeholder: 'phone number',
     onChange: (value) => { },
     inputClassName: null,
     containerClassName: null,
