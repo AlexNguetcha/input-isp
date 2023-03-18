@@ -15,7 +15,7 @@ jobs:
           node-version: 14
 
       - name: Install dependencies
-        run: npm ci
+        run: yarn
 
       - name: Test suites
         run: npm run test -- --coverage
