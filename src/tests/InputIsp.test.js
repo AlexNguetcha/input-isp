@@ -25,4 +25,10 @@ describe('InputIsp', () => {
     expect(handleChange).toHaveBeenCalledWith(newValue);
   });
 
+  test('renders the logo when the ISP is detected', () => {
+    const { getByAltText } = render(<InputIsp initialPhoneNumber="+237695904403" />);
+    const logoElement = getByAltText(/logo/);
+    expect(logoElement).toBeInTheDocument();
+  });
+
 });
