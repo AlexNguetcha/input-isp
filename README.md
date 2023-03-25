@@ -1,5 +1,10 @@
 # InputIsp
 
+[![npm version](https://badge.fury.io/js/input-isp.svg)](https://badge.fury.io/js/input-isp)
+[![codecov](https://codecov.io/gh/AlexNguetcha/input-isp/branch/dev/graph/badge.svg?token=BQRXXYCNAY)](https://codecov.io/gh/AlexNguetcha/input-isp)
+[![Build Status](https://github.com/alexnguetcha/input-isp/actions/workflows/test.yml/badge.svg)](https://github.com/alexnguetcha/input-isp/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A React component that renders an input field for phone numbers and detects the Internet Service Provider (ISP) of the entered phone number. The detected ISP logo is displayed next to the input field, and a loader is shown while the ISP is being detected.
 
 [Documentation](https://6409bed9d3031a41d0455a0d-ftcvpzzxsh.chromatic.com/)
