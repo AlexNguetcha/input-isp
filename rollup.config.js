@@ -19,7 +19,7 @@ export default {
         resolve(),
         commonjs(),
         typescript({
-            tsconfig: './tsconfig.build.json',
+            tsconfig: './tsconfig.json',
             declaration: true,
             declarationDir: 'dist',
         }),
