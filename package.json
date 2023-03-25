@@ -6,8 +6,9 @@
     "name": "Alex Nguetcha",
     "email": "nguetchaalex@gmail.com"
   },
-  "main": "./dist/index.js",
-  "module": "./build/index.es.js",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alexnguetcha/input-isp.git"
