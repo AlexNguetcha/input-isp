@@ -1,7 +1,7 @@
 import React from 'react';
-import { render, fireEvent } from '@testing-library/react';
 import InputIsp from '../components/InputIsp';
-
+import '@testing-library/jest-dom'
+import {render, fireEvent, screen, waitFor} from '@testing-library/react';
 
 describe('InputIsp', () => {
   test('renders an input element', () => {
